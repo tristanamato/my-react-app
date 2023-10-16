@@ -1,5 +1,5 @@
-  function PokemonCard({pokemonList}) {
-    const pokemon = pokemonList[0]
+  function PokemonCard({pokemonList, pokemonIndex}) {
+    const pokemon = pokemonList[pokemonIndex]
 
     console.log(pokemonList)
     return (
